@@ -7,7 +7,7 @@ for _ in range(n):
 
 p = int(input())
 password_changes = [input().split() for _ in range(p)]
-print(sequences)
+print(password_changes)
 # Function to check if two strings can be expressed as per the given rules
 def can_express(s1, s2):
     prefix, suffix = "", ""

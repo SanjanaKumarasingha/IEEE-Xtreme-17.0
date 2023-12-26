@@ -1,6 +1,5 @@
 import difflib
 
-
 n = int(input())
 sequences = []
 for _ in range(n):
@@ -37,8 +36,6 @@ for _ in range(p):
         elif diff[a].startswith("- "):
             substract.append(diff[a][2:])
     
-
-        
     for k in range (len(additions)):
         for sequence in sequences:
             if additions[k] in sequence and substract[k] in sequence:
@@ -48,8 +45,3 @@ for _ in range(p):
             print("OK")
             break
             
-
-
-
-
-
